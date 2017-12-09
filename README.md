@@ -21,8 +21,8 @@ const everyOwn = require("every-own")
 
 #### `@return boolean`
 
-- Returns `true` if every `callback` iteration result returns truthy
-- Else returns `false`
+- Breaks from the loop and returns `false` if any `callback` iteration result returns falsey
+- Else returns `true`
 
 ## Usage
 
