@@ -1,0 +1,35 @@
+{
+  "name": "every-own",
+  "version": "0.0.0",
+  "description": "Like [].every but for objects",
+  "author": "Ryan Van Etten",
+  "license": "CC0-1.0",
+  "main": "every-own.js",
+  "scripts": {
+    "preversion": "npm ls",
+    "pretest": "eslint .",
+    "test": "node test",
+    "version": "npm test"
+  },
+  "homepage": "https://github.com/ryanve/every-own",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanve/every-own.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ryanve/every-own/issues"
+  },
+  "keywords": [
+    "javascript",
+    "iteration",
+    "iterate",
+    "utility",
+    "for-own",
+    "object",
+    "every",
+    "own"
+  ],
+  "devDependencies": {
+    "eslint": "^4.13.0"
+  }
+}
