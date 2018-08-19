@@ -43,3 +43,7 @@ everyOwn({x: 3, y: 3}, value => array.push(value)) // true
 array.length // 2
 array.join("") // "33"
 ```
+
+## BFF
+
+[`some-own`](https://www.npmjs.com/package/some-own)
